@@ -4,7 +4,6 @@ import urllib.request
 from pdf2image import convert_from_path
 import os
 
-
 crawling_folder = 'D:\\Users\\user\\Desktop\\crawling'			# crawling 폴더 경로
 
 try:
