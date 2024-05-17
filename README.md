@@ -4,24 +4,24 @@ import urllib.request
 from pdf2image import convert_from_path
 import os
 
-# crawling 폴더 경로
-crawling_folder = 'D:\\Users\\user\\Desktop\\crawling'
+
+crawling_folder = 'D:\\Users\\user\\Desktop\\crawling'			# crawling 폴더 경로
 
 try:
     os.makedirs(crawling_folder)
 except FileExistsError:
     pass
 
-# pdf 파일 경로
-crawling_folder1 = 'D:\\Users\\user\\Desktop\\crawling\\학식_pdf'
+
+crawling_folder1 = 'D:\\Users\\user\\Desktop\\crawling\\학식_pdf'	# pdf 파일 경로
 
 try:
     os.makedirs(crawling_folder1)
 except FileExistsError:
     pass
 
-# png 파일 경로
-crawling_folder2 = 'D:\\Users\\user\\Desktop\\crawling\\학식_png'
+
+crawling_folder2 = 'D:\\Users\\user\\Desktop\\crawling\\학식_png'	# png 파일 경로
 
 try:
     os.makedirs(crawling_folder2)
